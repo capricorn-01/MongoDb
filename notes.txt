@@ -1,0 +1,37 @@
+// JavaScript mai jo object hota hai wahi mongodb mai document hota hai
+
+// JavaScript mai jo array of object hota hai wo mongodb mai collection of document hota hai 
+
+// JavaScript mai jo key hota hai woh mongodb mai fields or attributes hota hai
+
+// JavaScript mai jo value hota hai wo mongodb mai value hot hai
+
+// JavaScript mai jo datastructure hoti hai woh mongodb mai database banegi
+
+// JavaScript mai jo function hoti hai wo mongodb mai query hoti hai
+
+// filesystem mai jo parent folder name hai wo mongodb k terms mai database
+
+// parent folder ke andar subfolder hongi wo mongodb terms mai collections hongi
+
+// subfolder ke andar jo files hongi wo mongodb k terms mai document
+
+//filesystem mai jo filename hota hai wo mongodb k terms mai field name hota hai
+
+// filesystem mai jo data hota hai wo mongodb mai value hota hai
+
+// filesystem mai jo function hota hai wo mongodb mai query hoti hai
+
+//jab bhi database mai ek naya database bnta hai to wo kuch empty parent folder jesa hota hai
+
+// empty parent folder mongodb mai allowed nhi hota hai  that means empty database is not allowed in mongodb
+
+// iska mtlp kam se kam ek collection ya subfolder ya empty array hona chahiye
+
+// subfolder empty ho skta hai lekin parent folder empty nhi ho skta
+
+//mtlp empty collections/empty array is allowed but empty database is not allowed
+
+// collection name/subfolder/array of object inka name singular nhi ho skta ye hamesha plural form mai hi honge
+
+//
