@@ -35,3 +35,18 @@
 // collection name/subfolder/array of object inka name singular nhi ho skta ye hamesha plural form mai hi honge
 
 //
+
+//Operators//
+
+$and $or $not $ne $exist $all $nin $gt $gte $lte $ne(equals) 
+
+//exist field hame tb use mai leni hoti hai jab ye clear na ho ki sare mai same field of information hai
+// kyuki mongodb schema flexible hota hai toh ye jaruri nhi hai ki 2 object mai same field of information ho
+// matlab agr ek object mai sirf name,email,phone number hai toh mongodb use bhi valid consider karti hai
+and agr no field of information ho toh bhi use valid consider karegi 
+//then at that moment bhot sari data hone ke karan yeh samajh pana possible hai
+// for all the filter queries we use to do find method
+// find method pure document mai use hota hai
+// iska matlab hai ki each and every document apne mai seprate document hai un documents mai jo bhi chije particular condition ko match kr rhi hai un sbhi documents ko filter krke lane ka kaam find method karti hai
+
+db.Users.find({role:"admin"},{useremail:1,_id:0})

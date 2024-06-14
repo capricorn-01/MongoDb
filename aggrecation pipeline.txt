@@ -1,0 +1,30 @@
+Group krenge document ka fir unme kuch find kren vale hai
+pipeline ek ke bad dusra
+
+
+// mongodb is having object id with itself which make all the documents unique it has no such problem 
+of primary key , secondary key, candidate key
+
+//mongodb is scalable
+
+ it stores data either of the two method one is vertical scalable method and second is horizontal scalable method
+
+ system design mai ek part hota hai scaling
+ sharding: horizontal and vertical
+ horizontal: we divide the physical memory into multiple sub memory
+ vertical: we try to increase the physical memory
+
+ *mostly used operators in aggregation pipeline
+
+ $match == find, condition ko match krane k liye
+ $Group : jab hume documents ki grouping krni hogi
+ $projection : jab hume limited keys dikhani ho
+ $unwind : jab hume array ko todna ho
+
+ system design
+ 1. monolothic architecture
+ 2. distributive architecture
+
+ database software webappsite
+
+ $in = used for true more than one condition

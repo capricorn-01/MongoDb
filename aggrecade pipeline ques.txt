@@ -1,0 +1,42 @@
+1. Find all female users from Jaipur who know Python.
+ans [
+  {
+    $match: {
+      gender: "Female",
+      city: "Jaipur",
+      skills: "Python"
+    }
+  }
+]
+
+2. Find all male users in Delhi who are above age 26
+ans [
+  {
+    $match: {
+      city: "New Delhi",
+      gender: "Male"
+    }
+  }
+]
+
+3. Find all users who are from either New Delhi or Mumbai.
+ans [
+  {
+    $match: {
+      city:{$in:["New Delhi","Mumbai"]}
+    }
+  }
+]
+
+
+4. Find the count of users in New Delhi.
+ans [
+  {
+    $match: {
+      city:"New Delhi"
+    }
+  },
+  {
+    $count: 'findusers'
+  }
+]
